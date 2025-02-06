@@ -1,0 +1,7 @@
+{
+	"username": "{{Input1.text}}",
+	"password": "{{Input2.text}}",
+	"targets_info": {{Input3.text.split(',').map(item => ({hostname: item.trim()}))}},
+	"time": "{{Input4.text}}",
+	"real_username": "{{appsmith.user.username}}"
+}

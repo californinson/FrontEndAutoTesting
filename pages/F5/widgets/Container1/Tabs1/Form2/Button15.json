@@ -1,0 +1,58 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 138,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{Table2.tableData.length == 0}}",
+  "isLoading": false,
+  "isVisible": false,
+  "key": "dya09wf59n",
+  "leftColumn": 14,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "onClick": "{{clearServices.run().then(() => {\n  showAlert('Services cleared', 'info');\n  fetchService.run();\n}).catch(() => {\n  showAlert(clearServices.data, 'error');\n});\naddNewService.run().then(() => {\n  showAlert('New service(s) was added on the device(s)', 'success');\n}).catch(() => {\n  showAlert('An error occoured while the service(s) was added on the device(s)', '');\n});}}",
+  "originalBottomRow": 136,
+  "originalTopRow": 132,
+  "parentId": "rfe7beub83",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "responsiveBehavior": "hug",
+  "rightColumn": 26,
+  "text": "Push to device",
+  "topRow": 134,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "xi28bfpqhc",
+  "widgetName": "Button15"
+}

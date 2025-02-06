@@ -1,0 +1,12 @@
+{
+    "virtual_server": "{{ Input9.text }}",
+    "port": "{{ MultiSelect2.selectedOptionValues[0] }}",
+	  "sat": "{{ MultiSelect3.selectedOptionValues[0] }}",
+	  "ipProtocol": "{{MultiSelect2Copy.selectedOptionLabels[0]}}",
+    "pool": {
+        "pool_name": "{{ Input10.text }}",
+        "node_ips": "{{ Input11.text }}",
+        "health_monitor_name": "{{ MultiSelect1.selectedOptionValues }}"
+    },
+    "real_username": "{{appsmith.user.username}}"
+}

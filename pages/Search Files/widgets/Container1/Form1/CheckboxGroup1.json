@@ -1,0 +1,61 @@
+{
+  "accentColor": "#031452",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "defaultSelectedValues": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "s496j5dcxe",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelText": "Criteria",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 27,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 39,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "options": [
+    {
+      "label": "Greater Than",
+      "value": "gt"
+    },
+    {
+      "label": "Equal",
+      "value": "eq"
+    },
+    {
+      "label": "Less Than",
+      "value": "lt"
+    }
+  ],
+  "originalBottomRow": 16,
+  "originalTopRow": 1,
+  "parentColumnSpace": 5.083915710449219,
+  "parentId": "8jalbjspy6",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 43,
+  "topRow": 1,
+  "type": "CHECKBOX_GROUP_WIDGET",
+  "version": 2,
+  "widgetId": "bmlxr69sy2",
+  "widgetName": "CheckboxGroup1"
+}
