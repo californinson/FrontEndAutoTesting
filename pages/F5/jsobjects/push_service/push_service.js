@@ -1,5 +1,5 @@
 export default {
-	myFun1 () {
+	pushService () {
 		const data=Table2.tableData;
 
 		const transformedData = data.map(item => ({

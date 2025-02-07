@@ -61,7 +61,7 @@
         },
         "insert": {
           "documents": {
-            "data": "{{JSObject1.myFun1()}}"
+            "data": "{{push_service.pushService()}}"
           }
         },
         "misc": {

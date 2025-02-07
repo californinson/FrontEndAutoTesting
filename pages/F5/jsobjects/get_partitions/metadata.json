@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6772b21876a8a62bd8182bf4_97918aa2-4a54-4942-9c94-3dea34f3bbc2",
+  "id": "F5_get_partitions",
+  "unpublishedCollection": {
+    "name": "get_partitions",
+    "pageId": "F5",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

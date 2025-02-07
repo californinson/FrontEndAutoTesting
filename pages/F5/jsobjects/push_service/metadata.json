@@ -1,8 +1,8 @@
 {
   "gitSyncId": "6772b21876a8a62bd8182bf4_f4e78098-bcd2-4c07-bcd7-e7531e7d5cb1",
-  "id": "F5_JSObject1",
+  "id": "F5_push_service",
   "unpublishedCollection": {
-    "name": "JSObject1",
+    "name": "push_service",
     "pageId": "F5",
     "pluginId": "js-plugin",
     "pluginType": "JS",
