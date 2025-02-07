@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 143,
+  "bottomRow": 147,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -33,6 +33,7 @@
   },
   "columnOrder": [
     "virtual_server",
+    "virtual_server_address",
     "port",
     "protocol",
     "SAT",
@@ -40,7 +41,7 @@
     "node_ips",
     "health_monitor_name"
   ],
-  "columnUpdatedAt": 1738759294322,
+  "columnUpdatedAt": 1738944743783,
   "columnWidthMap": {
     "application_protocol": 182,
     "label": 197
@@ -89,6 +90,9 @@
     },
     {
       "key": "primaryColumns.protocol.computedValue"
+    },
+    {
+      "key": "primaryColumns.virtual_server_address.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -125,8 +129,8 @@
   "mobileTopRow": 14,
   "needsErrorInfo": false,
   "onAddNewRowSave": "{{clearServices.run()}}",
-  "originalBottomRow": 139,
-  "originalTopRow": 111,
+  "originalBottomRow": 147,
+  "originalTopRow": 119,
   "parentColumnSpace": 4.666046142578125,
   "parentId": "rfe7beub83",
   "parentRowSpace": 10,
@@ -368,6 +372,40 @@
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
+    },
+    "virtual_server_address": {
+      "alias": "virtual_server_address",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"virtual_server_address\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "virtual_server_address",
+      "index": 7,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Address",
+      "notation": "standard",
+      "originalId": "virtual_server_address",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
     }
   },
   "renderMode": "CANVAS",
@@ -377,7 +415,7 @@
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{fetchService.data}}",
   "textSize": "0.875rem",
-  "topRow": 115,
+  "topRow": 119,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

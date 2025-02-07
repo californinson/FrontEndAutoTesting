@@ -1,5 +1,6 @@
 {
     "virtual_server": "{{ Input9.text }}",
+	  "virtual_server_address": "{{ Input9Copy.text }}",
     "port": "{{ MultiSelect2.selectedOptionValues[0] }}",
 	  "sat": "{{ MultiSelect3.selectedOptionValues[0] }}",
 	  "ipProtocol": "{{MultiSelect2Copy.selectedOptionLabels[0]}}",

@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 29,
+  "bottomRow": 35,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -60,7 +60,7 @@
   "rightColumn": 35,
   "serverSideFiltering": false,
   "sourceData": "[\n  {\n    \"name\": \"TCP\",\n    \"code\": \"tcp\"\n  },\n  {\n    \"name\": \"UDP\",\n    \"code\": \"udp\"\n  }\n]",
-  "topRow": 22,
+  "topRow": 28,
   "type": "MULTI_SELECT_WIDGET_V2",
   "version": 1,
   "widgetId": "u9wvltvtzv",

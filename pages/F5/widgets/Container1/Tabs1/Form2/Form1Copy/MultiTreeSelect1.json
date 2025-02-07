@@ -24,6 +24,9 @@
   "dynamicPropertyPathList": [
     {
       "key": "isDisabled"
+    },
+    {
+      "key": "onDropdownOpen"
     }
   ],
   "dynamicTriggerPathList": [
@@ -52,8 +55,8 @@
   "mobileTopRow": 33,
   "mode": "SHOW_ALL",
   "needsErrorInfo": false,
-  "onDropdownOpen": "{{}}",
-  "options": "{{get_partitions.asyncgetPartitions()}}",
+  "onDropdownOpen": "{{f5_partitions.run()}}",
+  "options": "{{f5_partitions.data.partitions}}",
   "originalBottomRow": 40,
   "originalTopRow": 33,
   "parentColumnSpace": 3.6884193420410156,

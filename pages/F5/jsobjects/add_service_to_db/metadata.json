@@ -1,8 +1,8 @@
 {
   "gitSyncId": "6772b21876a8a62bd8182bf4_f4e78098-bcd2-4c07-bcd7-e7531e7d5cb1",
-  "id": "F5_push_service",
+  "id": "F5_add_service_to_db",
   "unpublishedCollection": {
-    "name": "push_service",
+    "name": "add_service_to_db",
     "pageId": "F5",
     "pluginId": "js-plugin",
     "pluginType": "JS",

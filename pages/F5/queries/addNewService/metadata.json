@@ -61,7 +61,7 @@
         },
         "insert": {
           "documents": {
-            "data": "{{push_service.pushService()}}"
+            "data": "{{add_service_to_db.addServiceDB()}}"
           }
         },
         "misc": {

@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 57,
+  "bottomRow": 63,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -52,7 +52,7 @@
   "rightColumn": 35,
   "serverSideFiltering": false,
   "sourceData": "[\n  {\n    \"name\": \"None\",\n    \"code\": \"none\"\n  },\n  {\n    \"name\": \"SNAT\",\n    \"code\": \"snat\"\n  },\n  {\n    \"name\": \"Auto Map\",\n    \"code\": \"auto_map\"\n  }\n]",
-  "topRow": 50,
+  "topRow": 56,
   "type": "MULTI_SELECT_WIDGET_V2",
   "version": 1,
   "widgetId": "23hj7sj4qw",

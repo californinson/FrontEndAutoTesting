@@ -1,9 +1,10 @@
 export default {
-	pushService () {
+	addServiceDB () {
 		const data=Table2.tableData;
 
 		const transformedData = data.map(item => ({
     virtual_server: item.virtual_server,
+		virtual_server_address: item.virtual_server_address,
     port: item.port,
     sat: item.SAT,
     ipProtocol: item.protocol,

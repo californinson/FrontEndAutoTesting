@@ -45,6 +45,6 @@
     "executeOnLoad": false,
     "name": "f5_partitions",
     "pageId": "F5",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 21,
+  "bottomRow": 28,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -60,7 +60,7 @@
   "rightColumn": 35,
   "serverSideFiltering": false,
   "sourceData": "[\n  {\n    \"name\": \"Any\",\n    \"code\": \"*\"\n  },\n  {\n    \"name\": \"DNS/53\",\n    \"code\": \"53\"\n  },\n  {\n    \"name\": \"HTTP/80\",\n    \"code\": \"80\"\n  },\n\t{\n    \"name\": \"HTTPS/433\",\n    \"code\": \"443\"\n  }\n]",
-  "topRow": 14,
+  "topRow": 21,
   "type": "MULTI_SELECT_WIDGET_V2",
   "version": 1,
   "widgetId": "3f0rkm5stg",
