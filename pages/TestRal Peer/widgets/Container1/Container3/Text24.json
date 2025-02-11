@@ -20,7 +20,7 @@
   "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "0.875rem",
+  "fontSize": "1rem",
   "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
