@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"text\":\"{{Input12.text}}\"\n}",
+      "body": "{\n\t\"text\":\"{{RichTextEditor1.text}}\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
