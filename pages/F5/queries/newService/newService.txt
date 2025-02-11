@@ -7,7 +7,7 @@
     "pool": {
         "pool_name": "{{ Input10.text }}",
         "node_ips": "{{ Input11.text }}",
-        "health_monitor_name": "{{ MultiSelect1.selectedOptionValues }}"
+        "health_monitor_name": "{{ MultiSelect1.selectedOptionValues[0] }}"
     },
     "real_username": "{{appsmith.user.username}}"
 }

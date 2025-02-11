@@ -30,6 +30,7 @@
   "labelPosition": "Top",
   "labelText": "Node/s Health Monitor",
   "labelTextSize": "0.875rem",
+  "labelTooltip": "You can only select one Health Monitor option",
   "labelWidth": 5,
   "leftColumn": 3,
   "maxDynamicHeight": 9000,

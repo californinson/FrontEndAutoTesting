@@ -3,7 +3,7 @@
   "allowClear": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 40,
+  "bottomRow": 42,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -66,7 +66,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 36,
-  "topRow": 33,
+  "topRow": 35,
   "type": "MULTI_SELECT_TREE_WIDGET",
   "version": 1,
   "widgetId": "fzbcnx6gir",
