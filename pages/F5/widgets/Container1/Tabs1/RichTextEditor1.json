@@ -15,7 +15,7 @@
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "start",
-  "inputType": "html",
+  "inputType": "markdown",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
