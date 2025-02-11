@@ -21,7 +21,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/generate_text",
+      "path": "/generate_text2",
       "pluginSpecifiedTemplates": [
         {
           "value": true
