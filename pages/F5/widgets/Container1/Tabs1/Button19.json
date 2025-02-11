@@ -31,7 +31,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 9,
   "needsErrorInfo": false,
-  "onClick": "{{generateText.run().then(() => {\n  showAlert('Text generated successfully', '');\n}).catch(() => {\n  showAlert('An error occoured', 'error');\n});}}",
+  "onClick": "{{generateText.run().then(() => {\n  showAlert('Text generated successfully', 'success');\n}).catch(() => {\n  showAlert('An error occoured', 'error');\n});}}",
   "parentColumnSpace": 4.089111328125,
   "parentId": "24l969g5ts",
   "parentRowSpace": 10,
