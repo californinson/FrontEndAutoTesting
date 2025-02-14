@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6772b21876a8a62bd8182bf4_70a93e62-c6e3-4700-9de7-043d1935a5c8",
-  "id": "F5_addNewService",
+  "id": "F5_addNewServiceDB",
   "pluginId": "mongo-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -66,7 +66,7 @@
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"insert\": \"files\",\n  \"documents\": {{JSObject1.myFun1()}}\n}\n",
+            "data": "{\n  \"insert\": \"files\",\n  \"documents\": {{add_service_to_db.addServiceDB()}}\n}\n",
             "status": "SUCCESS"
           }
         },
@@ -101,7 +101,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "addNewService",
+    "name": "addNewServiceDB",
     "pageId": "F5",
     "userSetOnLoad": false
   }

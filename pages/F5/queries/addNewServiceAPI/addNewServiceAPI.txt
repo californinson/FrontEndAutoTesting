@@ -1,0 +1,7 @@
+{
+	"username": "{{Input5Copy.text}}",
+	"password": "{{Input7Copy.text}}",
+	"targets_info": {{Input8Copy.text.split(',').map(item => ({hostname: item.trim()}))}},
+	"real_username": "{{appsmith.user.username}}",
+	"partition":"{{MultiTreeSelect1.options}}"
+}
