@@ -39,7 +39,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{newService.run().then(() => {\n  showAlert('Service added in the queue', 'success');\n  fetchService.run();\n  open_Service_Form.openPushToDevice();\n}).catch(() => {\n  showAlert(newService.data, '');\n});}}",
+  "onClick": "{{newService.run().then(() => {\n  showAlert(newService.data.message, 'success');\n  fetchService.run().then(() => {\n    showAlert('Services loaded');\n  }).catch(() => {\n    showAlert('An error occoured while fetching services');\n  });\n  open_Service_Form.openPushToDevice();\n}).catch(() => {\n  showAlert(newService.data.message, '');\n});}}",
   "parentId": "mvopfc4rsf",
   "placement": "CENTER",
   "recaptchaType": "V3",
