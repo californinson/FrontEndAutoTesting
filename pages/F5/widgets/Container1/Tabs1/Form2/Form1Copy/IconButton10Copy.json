@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 10,
+  "bottomRow": 15,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -26,7 +26,7 @@
       "key": "onClick"
     }
   ],
-  "iconName": "plus",
+  "iconName": "minus",
   "isDisabled": "{{!(Input5Copy.text.length > 0 && Input7Copy.text.length > 0 && Input8Copy.text.length > 0)}}",
   "isLoading": false,
   "isVisible": true,
@@ -38,7 +38,7 @@
   "mobileRightColumn": 60,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
-  "onClick": "{{open_Service_Form.openServiceFormAdd();}}",
+  "onClick": "{{open_Service_Form.openServiceFormDel();}}",
   "parentColumnSpace": 5.366001725196838,
   "parentId": "mo5aym7voc",
   "parentRowSpace": 10,
@@ -46,9 +46,9 @@
   "responsiveBehavior": "hug",
   "rightColumn": 60,
   "tooltip": "Insert host parameters to add service",
-  "topRow": 6,
+  "topRow": 11,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "ffkxlz6yvn",
-  "widgetName": "IconButton10"
+  "widgetId": "m688xw2mc1",
+  "widgetName": "IconButton10Copy"
 }

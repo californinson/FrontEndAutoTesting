@@ -26,6 +26,10 @@
         {
           "key": "real_username",
           "value": "{{appsmith.user.email}}"
+        },
+        {
+          "key": "configured",
+          "value": "{{appsmith.store.configured}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -40,6 +44,9 @@
     "dynamicBindingPathList": [
       {
         "key": "queryParameters[0].value"
+      },
+      {
+        "key": "queryParameters[1].value"
       }
     ],
     "executeOnLoad": true,

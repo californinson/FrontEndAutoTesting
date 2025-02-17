@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 129,
+  "bottomRow": 5,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -38,11 +38,11 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 127,
   "needsErrorInfo": false,
-  "originalBottomRow": 129,
-  "originalTopRow": 125,
+  "originalBottomRow": 75,
+  "originalTopRow": 71,
   "overflow": "NONE",
   "parentColumnSpace": 6.397420883178711,
-  "parentId": "rfe7beub83",
+  "parentId": "0cfannet0y",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -51,10 +51,10 @@
   "text": "Service queue",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 125,
+  "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "6n0nk0n0ti",
-  "widgetName": "Text27"
+  "widgetId": "hp2n60thzn",
+  "widgetName": "Text27Copy"
 }

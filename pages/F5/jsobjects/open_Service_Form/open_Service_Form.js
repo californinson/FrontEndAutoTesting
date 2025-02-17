@@ -1,9 +1,14 @@
 export default {
-	openServiceForm () {
+	openServiceFormAdd () {
 		Form3.setVisibility(true)
+		Tabs2.setVisibility(true)
+		storeValue('configured', 'no')
+	},
+	openServiceFormDel () {
+		Tabs2.setVisibility(true)
+		storeValue('configured', 'yes')
 	},
 	openPushToDevice () {
 		Button15.setVisibility(true)
-		Button16.setVisibility(true)
 	}
 }
