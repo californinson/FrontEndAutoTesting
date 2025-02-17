@@ -1,8 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 42,
-  "bottomRowBeforeCollapse": 47,
+  "bottomRow": 39,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -21,6 +20,9 @@
   "dynamicPropertyPathList": [
     {
       "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [
@@ -29,32 +31,32 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{!  empty_ParametersConnSess.checkInputsConnSess()}}",
+  "isDisabled": "{{(Table2.tableData.length == 0) || !(Input5Copy.text.length > 0 && Input7Copy.text.length > 0 && Input8Copy.text.length > 0)}}",
   "isLoading": false,
-  "isVisible": true,
-  "key": "878ps5wnvm",
-  "leftColumn": 19,
+  "isVisible": "false",
+  "key": "dya09wf59n",
+  "leftColumn": 0,
   "minWidth": 120,
   "mobileBottomRow": 37,
   "mobileLeftColumn": 46,
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{f5_connections_sessions.run().then(() => {\n  showAlert('Task executed', 'success');\n}).catch(() => {\n  showAlert(f5_connections_sessions.data, 'error');\n});\nshowModal(APIResponse_conn_sess.name);}}",
-  "originalBottomRow": 42,
-  "originalTopRow": 38,
-  "parentId": "dauoh5tj1h",
+  "onClick": "{{showModal(Modal6.name);}}",
+  "originalBottomRow": 107,
+  "originalTopRow": 103,
+  "parentId": "0cfannet0y",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": true,
   "responsiveBehavior": "hug",
-  "rightColumn": 35,
-  "text": "Submit",
-  "topRow": 38,
-  "topRowBeforeCollapse": 43,
+  "rightColumn": 11,
+  "text": "Delete from device(s)",
+  "tooltip": "Push services on the table to the F5",
+  "topRow": 35,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "minpb2ftnq",
-  "widgetName": "Button3"
+  "widgetId": "g0ku4ey290",
+  "widgetName": "Button15Copy"
 }

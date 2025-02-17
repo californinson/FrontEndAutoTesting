@@ -5,6 +5,7 @@ export default {
 		Form3.setVisibility(true)
 		Text27.setVisibility(true)
 		Table2.setVisibility(true)
+		Button15.setVisibility(true)
 	},
 	openServiceFormDel () {
 		storeValue('configured', 'yes')
