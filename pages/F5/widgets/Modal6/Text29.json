@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 59,
   "shouldTruncate": false,
-  "text": "Are you sure you want to delete the below service(s)?\n\n{{(Table2Copy.selectedRows.entries()['virtual_server'])}}",
+  "text": "Are you sure you want to delete the below service(s)?\n\n{{(Table2Copy.selectedRows}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 7,
