@@ -28,7 +28,7 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{Table2.tableData.length == 0}}",
+  "isDisabled": "{{(Table2.tableData.length == 0) || !(Input5Copy.text.length > 0 && Input7Copy.text.length > 0 && Input8Copy.text.length > 0)}}",
   "isLoading": false,
   "isVisible": false,
   "key": "dya09wf59n",
