@@ -83,9 +83,6 @@
       "key": "primaryColumns.SAT.computedValue"
     },
     {
-      "key": "isVisible"
-    },
-    {
       "key": "primaryColumns.port.computedValue"
     },
     {
@@ -114,7 +111,7 @@
   "inlineEditingSaveOption": "CUSTOM",
   "isLoading": false,
   "isSortable": true,
-  "isVisible": "{{fetchService.data.length > 0}}",
+  "isVisible": "false",
   "isVisibleDownload": false,
   "isVisibleFilters": false,
   "isVisiblePagination": true,
