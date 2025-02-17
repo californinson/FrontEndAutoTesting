@@ -22,7 +22,12 @@
           "value": true
         }
       ],
-      "queryParameters": [],
+      "queryParameters": [
+        {
+          "key": "real_username",
+          "value": "{{appsmith.user.email}}"
+        }
+      ],
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
@@ -32,7 +37,11 @@
       "name": "Flask - F5",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "queryParameters[0].value"
+      }
+    ],
     "executeOnLoad": true,
     "name": "fetchService",
     "pageId": "F5",
