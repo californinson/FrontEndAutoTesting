@@ -13,6 +13,7 @@ export default {
 		Table2Copy.setVisibility(true)
 		Text27Copy.setVisibility(true)
 		Table2Copy.setVisibility(true)
+		Button15Copy.setVisibility(true)
 	},
 	openPushToDevice () {
 		Button15.setVisibility(true)

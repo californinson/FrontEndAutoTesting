@@ -124,6 +124,7 @@
   "mobileLeftColumn": 2,
   "mobileRightColumn": 36,
   "mobileTopRow": 14,
+  "multiRowSelection": true,
   "needsErrorInfo": false,
   "onAddNewRowSave": "{{clearServices.run()}}",
   "originalBottomRow": 103,
