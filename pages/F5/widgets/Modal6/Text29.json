@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 14,
+  "bottomRow": 16,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 59,
   "shouldTruncate": false,
-  "text": "Are you sure you want to delete the below service(s)?\n{{(Table2Copy.selectedRow['virtual_server'])}}",
+  "text": "Are you sure you want to delete the below service(s)?\n\n{{(Table2Copy.selectedRows.entries()['virtual_server'])}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 7,
