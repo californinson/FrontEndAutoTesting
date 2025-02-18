@@ -1,5 +1,5 @@
 {
-    "virtual_servers": "{{ Table2Copy.selectedRows['virtual_server'] }}",
+    "virtual_servers": "{{ Table2Copy.tableData }}",
     "username": "{{Input5Copy.text}}",
     "password": "{{Input7Copy.text}}",
     "targets_info": {{Input8Copy.text.split(',').map(item => ({hostname: item.trim()}))}},
