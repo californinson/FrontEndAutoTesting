@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 39,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "defaultText": "Example: <b>generate</b> a test plan for a Cisco NCS5500 router with IOS XR version 7.3.2",
   "dynamicBindingPathList": [
@@ -12,7 +12,7 @@
       "key": "boxShadow"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "start",
   "inputType": "markdown",
@@ -35,8 +35,6 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "originalBottomRow": 32,
-  "originalTopRow": 8,
   "parentColumnSpace": 4.78936767578125,
   "parentId": "bsu2dccejk",
   "parentRowSpace": 10,
