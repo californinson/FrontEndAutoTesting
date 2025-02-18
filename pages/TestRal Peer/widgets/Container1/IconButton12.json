@@ -1,0 +1,45 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 50,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "download",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "rmt2bm3d9z",
+  "leftColumn": 47,
+  "minWidth": 50,
+  "mobileBottomRow": 51,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 47,
+  "needsErrorInfo": false,
+  "onClick": "{{downloadDoc.run().then(() => {\n  showAlert('Document downloaded successfully', 'success');\n}).catch(() => {\n  showAlert('Error while downloading the document', 'error');\n});}}",
+  "parentColumnSpace": 9.2265625,
+  "parentId": "bsu2dccejk",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 50,
+  "topRow": 46,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "av14x3mg2r",
+  "widgetName": "IconButton12"
+}
