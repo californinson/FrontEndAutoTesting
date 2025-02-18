@@ -32,7 +32,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{deleteService.run().then(() => {\n  showAlert('Service(s) successfully deleted', 'success');\n}).catch(() => {\n  showAlert(deleteService.data.message + '/n/n' + deleteService.data.errors, 'error');\n});}}",
+  "onClick": "{{deleteService.run().then(() => {\n  showAlert('Service(s) successfully deleted', 'success');\n  closeModal(Modal6.name);\n}).catch(() => {\n  showAlert(deleteService.data.message + '/n/n' + deleteService.data.errors, 'error');\n  closeModal(Modal6.name);\n});}}",
   "originalBottomRow": 25,
   "originalTopRow": 21,
   "parentId": "n224t35p14",

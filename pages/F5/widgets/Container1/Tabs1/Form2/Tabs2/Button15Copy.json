@@ -51,7 +51,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": true,
   "responsiveBehavior": "hug",
-  "rightColumn": 11,
+  "rightColumn": 17,
   "text": "Delete from device(s)",
   "tooltip": "Delete service(s) from the F5",
   "topRow": 36,

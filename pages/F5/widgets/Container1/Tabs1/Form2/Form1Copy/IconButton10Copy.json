@@ -45,7 +45,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 60,
-  "tooltip": "Insert host parameters to add service",
+  "tooltip": "Insert host parameters to delete service(s)",
   "topRow": 11,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
