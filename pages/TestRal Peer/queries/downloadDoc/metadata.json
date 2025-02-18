@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n   \"text\": \"{{Text24.text}}\"\n}",
+      "body": "{\n\t\"text\": {{Text24.text}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
