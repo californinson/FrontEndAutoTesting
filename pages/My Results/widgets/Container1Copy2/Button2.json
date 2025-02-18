@@ -29,7 +29,7 @@
   "isVisible": true,
   "key": "ea7apjwric",
   "leftColumn": 15,
-  "onClick": "{{navigateTo('HomePage', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('Dashboard', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 4.021484375,
   "parentId": "t1pt8jhaxx",
   "parentRowSpace": 10,
