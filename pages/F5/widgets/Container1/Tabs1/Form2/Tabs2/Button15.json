@@ -51,7 +51,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": true,
   "responsiveBehavior": "hug",
-  "rightColumn": 11,
+  "rightColumn": 18,
   "text": "Push to device(s)",
   "tooltip": "Push services on the table to the F5",
   "topRow": 104,
