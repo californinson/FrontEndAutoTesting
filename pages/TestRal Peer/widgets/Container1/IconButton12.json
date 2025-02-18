@@ -11,6 +11,14 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicTriggerPathList": [
@@ -19,7 +27,7 @@
     }
   ],
   "iconName": "download",
-  "isDisabled": false,
+  "isDisabled": "{{!(Text24.text.length >0)}}",
   "isLoading": false,
   "isVisible": true,
   "key": "rmt2bm3d9z",
