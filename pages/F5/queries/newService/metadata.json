@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n    \"virtual_server\": \"{{ Input9.text }}\",\n\t  \"virtual_server_address\": \"{{ Input9Copy.text }}\",\n    \"port\": \"{{ MultiSelect2.selectedOptionValues[0] }}\",\n\t  \"sat\": \"{{ MultiSelect3.selectedOptionValues[0] }}\",\n\t  \"ipProtocol\": \"{{MultiSelect2Copy.selectedOptionLabels[0]}}\",\n    \"pool\": {\n        \"pool_name\": \"{{ Input10.text }}\",\n        \"node_ips\": \"{{ Input11.text }}\",\n        \"health_monitor_name\": \"{{ MultiSelect1.selectedOptionValues[0] }}\"\n    },\n    \"real_username\": \"{{appsmith.user.username}}\"\n}",
+      "body": "{\n    \"virtual_server\": \"{{ Input9.text }}\",\n\t  \"virtual_server_address\": \"{{ Input9Copy.text }}\",\n    \"port\": \"{{ MultiSelect2.selectedOptionValues[0] }}\",\n\t  \"sat\": \"{{ MultiSelect3.selectedOptionValues[0] }}\",\n\t  \"ipProtocol\": \"{{MultiSelect2Copy.selectedOptionLabels[0]}}\",\n\t  \"targets_info\": {{Input8Copy.text.split(',').map(item => ({hostname: item.trim()}))}},\n    \"pool\": {\n        \"pool_name\": \"{{ Input10.text }}\",\n        \"node_ips\": \"{{ Input11.text }}\",\n        \"health_monitor_name\": \"{{ MultiSelect1.selectedOptionValues[0] }}\"\n    },\n    \"real_username\": \"{{appsmith.user.username}}\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

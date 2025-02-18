@@ -4,6 +4,7 @@
     "port": "{{ MultiSelect2.selectedOptionValues[0] }}",
 	  "sat": "{{ MultiSelect3.selectedOptionValues[0] }}",
 	  "ipProtocol": "{{MultiSelect2Copy.selectedOptionLabels[0]}}",
+	  "targets_info": {{Input8Copy.text.split(',').map(item => ({hostname: item.trim()}))}},
     "pool": {
         "pool_name": "{{ Input10.text }}",
         "node_ips": "{{ Input11.text }}",
