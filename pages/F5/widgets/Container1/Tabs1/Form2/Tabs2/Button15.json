@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 107,
+  "bottomRow": 108,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -54,7 +54,7 @@
   "rightColumn": 11,
   "text": "Push to device(s)",
   "tooltip": "Push services on the table to the F5",
-  "topRow": 103,
+  "topRow": 104,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "xi28bfpqhc",

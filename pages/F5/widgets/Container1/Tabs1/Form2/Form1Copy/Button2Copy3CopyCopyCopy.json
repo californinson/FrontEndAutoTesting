@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 43,
+  "bottomRow": 45,
   "boxShadow": "none",
   "buttonColor": "transparent",
   "buttonVariant": "PRIMARY",
@@ -27,8 +27,8 @@
   "key": "ea7apjwric",
   "leftColumn": 12,
   "onClick": "{{navigateTo('TestRal Peer', {}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 45,
-  "originalTopRow": 41,
+  "originalBottomRow": 43,
+  "originalTopRow": 39,
   "parentColumnSpace": 4.021484375,
   "parentId": "mo5aym7voc",
   "parentRowSpace": 10,
@@ -42,7 +42,7 @@
     "submit"
   ],
   "text": "TestRal Peer",
-  "topRow": 39,
+  "topRow": 41,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "qu2zy658aw",

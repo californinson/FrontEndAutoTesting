@@ -15,7 +15,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -28,6 +32,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
+  "onClick": "{{deleteService.run().then(() => {\n  showAlert('Service(s) successfully deleted', 'success');\n}).catch(() => {\n  showAlert(deleteService.data.message + '/n/n' + deleteService.data.errors, 'error');\n});}}",
   "originalBottomRow": 25,
   "originalTopRow": 21,
   "parentId": "n224t35p14",
