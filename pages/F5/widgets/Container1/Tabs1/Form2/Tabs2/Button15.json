@@ -42,7 +42,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{addNewServiceAPI.run().then(() => {\n  showAlert('New service(s) was added on the device(s)', 'success');\n  fetchService.run();\n}).catch(() => {\n  showAlert('An error occoured while the service(s) was added on the device(s)', 'error');\n});}}",
+  "onClick": "{{addNewServiceAPI.run().then(() => {\n  showAlert('New service(s) was added on the device(s)', 'success');\n  fetchService.run();\n}).catch(() => {\n  showAlert('An error occoured while the service(s) was added on the device(s)', 'error');\n  fetchService.run();\n});}}",
   "originalBottomRow": 108,
   "originalTopRow": 104,
   "parentId": "9ahv5n857y",
