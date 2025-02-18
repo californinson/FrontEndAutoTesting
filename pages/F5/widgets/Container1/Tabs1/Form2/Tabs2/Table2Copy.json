@@ -50,9 +50,7 @@
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
-  "defaultSelectedRowIndices": [
-    0
-  ],
+  "defaultSelectedRowIndices": "",
   "delimiter": ",",
   "dynamicBindingPathList": [
     {
@@ -127,8 +125,8 @@
   "multiRowSelection": true,
   "needsErrorInfo": false,
   "onAddNewRowSave": "{{clearServices.run()}}",
-  "originalBottomRow": 34,
-  "originalTopRow": 6,
+  "originalBottomRow": 35,
+  "originalTopRow": 7,
   "parentColumnSpace": 4.666046142578125,
   "parentId": "0cfannet0y",
   "parentRowSpace": 10,
