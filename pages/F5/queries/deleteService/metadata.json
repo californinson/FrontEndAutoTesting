@@ -21,7 +21,7 @@
       "httpMethod": "DELETE",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/new_service",
+      "path": "/delete_service",
       "pluginSpecifiedTemplates": [
         {
           "value": true
