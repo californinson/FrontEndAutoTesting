@@ -1,0 +1,7 @@
+{
+	"username": "{{Input1.text}}",
+	"password": "{{Input2.text}}",
+	"host": {{Input3.text}},
+	"vrf": "{{Input12.text}}",
+	"real_username": "{{appsmith.user.username}}"
+}

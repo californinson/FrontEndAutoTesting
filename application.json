@@ -61,6 +61,10 @@
     {
       "id": "TestRal Peer",
       "isDefault": false
+    },
+    {
+      "id": "Cisco",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

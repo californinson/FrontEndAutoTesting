@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6772b21876a8a62bd8182bf4_61fe32a6-0a75-4ca6-9546-39510f0eca99",
+  "id": "Cisco_add_service_to_db",
+  "unpublishedCollection": {
+    "name": "add_service_to_db",
+    "pageId": "Cisco",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "plus",
+  "isDisabled": "{{!(Input5Copy.text.length > 0 && Input7Copy.text.length > 0 && Input8Copy.text.length > 0)}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6ks327o3kl",
+  "leftColumn": 56,
+  "minWidth": 50,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 56,
+  "mobileRightColumn": 60,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "onClick": "{{open_Service_Form.openServiceFormAdd();\nfetchService.run()}}",
+  "parentColumnSpace": 5.366001725196838,
+  "parentId": "mo5aym7voc",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 60,
+  "tooltip": "Insert host parameters to add service(s)",
+  "topRow": 6,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ffkxlz6yvn",
+  "widgetName": "IconButton10"
+}
