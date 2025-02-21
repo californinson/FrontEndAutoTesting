@@ -62,9 +62,6 @@
       "key": "tableData"
     },
     {
-      "key": "isVisible"
-    },
-    {
       "key": "primaryColumns.LocPrf.computedValue"
     },
     {
@@ -101,7 +98,7 @@
   "inlineEditingSaveOption": "ROW_LEVEL",
   "isLoading": false,
   "isSortable": true,
-  "isVisible": "{{empty_ParametersBGP.checkInputsBGP()}}",
+  "isVisible": "true",
   "isVisibleDownload": true,
   "isVisibleFilters": false,
   "isVisiblePagination": false,
