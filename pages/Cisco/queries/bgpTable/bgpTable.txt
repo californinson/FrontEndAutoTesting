@@ -4,5 +4,6 @@
 	"host": {{Input3.text}},
 	"vrf": "{{Input12.text}}",
 	"prefixes": "{{Input13.text.split(',')}}",
+	"filter": "{{MultiSelect4.selectedOptionValues}}"
 	"real_username": "{{appsmith.user.username}}"
 }
