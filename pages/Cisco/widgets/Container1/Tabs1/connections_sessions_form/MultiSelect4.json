@@ -29,7 +29,7 @@
   "key": "lu43taanb2",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Filter",
+  "labelText": "Address Family",
   "labelTextSize": "0.875rem",
   "labelTooltip": "Select only one option",
   "labelWidth": 5,

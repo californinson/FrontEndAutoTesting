@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"username\": \"{{Input1.text}}\",\n\t\"password\": \"{{Input2.text}}\",\n\t\"host\": {{Input3.text}},\n\t\"vrf\": \"{{Input12.text}}\",\n\t\"prefixes\": \"{{Input13.text.split(',')}}\",\n\t\"filter\": \"{{MultiSelect4.selectedOptionValues}}\"\n\t\"real_username\": \"{{appsmith.user.username}}\"\n}",
+      "body": "{\n\t\"username\": \"{{Input1.text}}\",\n\t\"password\": \"{{Input2.text}}\",\n\t\"host\": {{Input3.text}},\n\t\"vrf\": \"{{Input12.text}}\",\n\t\"prefixes\": \"{{Input13.text.split(',')}}\",\n\t\"filter\": \"{{MultiSelect4.selectedOptionValues}}\",\n\t\"real_username\": \"{{appsmith.user.username}}\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

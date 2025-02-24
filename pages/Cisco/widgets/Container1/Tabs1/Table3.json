@@ -36,9 +36,10 @@
     "Network",
     "Next_Hop",
     "Path",
-    "Weight"
+    "Weight",
+    "Preferred"
   ],
-  "columnUpdatedAt": 1740153861746,
+  "columnUpdatedAt": 1740420070069,
   "columnWidthMap": {
     "LocPrf": 133,
     "Metric": 88
@@ -84,6 +85,9 @@
     },
     {
       "key": "totalRecordsCount"
+    },
+    {
+      "key": "primaryColumns.Preferred.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -270,6 +274,40 @@
       "notation": "standard",
       "originalId": "Path",
       "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "Preferred": {
+      "alias": "Preferred",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "checkbox",
+      "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Preferred\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "Preferred",
+      "index": 5,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Preferred",
+      "notation": "standard",
+      "originalId": "Preferred",
+      "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
