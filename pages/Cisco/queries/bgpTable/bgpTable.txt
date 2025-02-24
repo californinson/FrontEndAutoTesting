@@ -3,5 +3,6 @@
 	"password": "{{Input2.text}}",
 	"host": {{Input3.text}},
 	"vrf": "{{Input12.text}}",
+	"prefixes": "{{Input13.text.split(',')}}",
 	"real_username": "{{appsmith.user.username}}"
 }

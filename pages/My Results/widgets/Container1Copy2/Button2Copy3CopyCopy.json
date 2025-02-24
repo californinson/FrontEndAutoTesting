@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 33,
+  "bottomRow": 36,
   "boxShadow": "none",
   "buttonColor": "transparent",
   "buttonVariant": "PRIMARY",
@@ -40,7 +40,7 @@
     "submit"
   ],
   "text": "TestRal Peer",
-  "topRow": 29,
+  "topRow": 32,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "yf64cuqvx1",

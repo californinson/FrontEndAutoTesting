@@ -4,7 +4,11 @@
   "bottomRow": 4,
   "boxShadow": "none",
   "displayName": "Text",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
@@ -30,7 +34,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "rightColumn": 38,
-  "text": "F5",
+  "text": "{{appsmith.currentPageName}}",
   "textAlign": "LEFT",
   "textColor": "#003B4A",
   "topRow": 0,
