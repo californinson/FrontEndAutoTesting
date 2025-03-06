@@ -1,7 +1,10 @@
 {
 	"username": "{{Input1.text}}",
 	"password": "{{Input2.text}}",
-	"host": {{Input3.text}},
+	"host": {
+		"hostname": "{{MultiSelect5.selectedOptionLabels[0]}}",
+		"ip": "{{MultiSelect5.selectedOptionValues[0]}}"
+	},
 	"vrf": "{{Input12.text}}",
 	"prefixes": "{{Input13.text.split(',')}}",
 	"filter": "{{MultiSelect4.selectedOptionValues}}",

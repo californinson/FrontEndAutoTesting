@@ -1,11 +1,10 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 31,
+  "bottomRow": 29,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -14,53 +13,60 @@
       "key": "borderRadius"
     },
     {
-      "key": "validation"
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
-      "key": "labelTextSize"
+      "key": "sourceData"
+    },
+    {
+      "key": "onDropdownOpen"
     }
   ],
-  "dynamicTriggerPathList": [],
-  "iconAlign": "left",
-  "inputType": "TEXT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDropdownOpen"
+    }
+  ],
   "isDisabled": false,
+  "isFilterable": true,
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
-  "key": "3f8iivll8b",
-  "label": "Hostname",
+  "key": "lu43taanb2",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "",
-  "labelTextSize": "0.835rem",
+  "labelText": "Device",
+  "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 13,
-  "mobileLeftColumn": 2,
-  "mobileRightColumn": 22,
-  "mobileTopRow": 6,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 40,
+  "mobileRightColumn": 60,
+  "mobileTopRow": 7,
   "needsErrorInfo": false,
+  "onDropdownOpen": "{{getTopology.run()}}",
+  "optionLabel": "name",
+  "optionValue": "code",
   "originalBottomRow": 31,
   "originalTopRow": 24,
-  "parentColumnSpace": 7.85479199886322,
+  "parentColumnSpace": 4.967437744140625,
   "parentId": "dauoh5tj1h",
   "parentRowSpace": 10,
-  "regex": "",
+  "placeholderText": "Select option(s)",
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 28,
-  "showStepArrows": false,
-  "topRow": 24,
-  "type": "INPUT_WIDGET_V2",
-  "validation": "{{ Input3.text.length > 0}}",
-  "version": 2,
-  "widgetId": "47bp1cumfh",
-  "widgetName": "Input3"
+  "serverSideFiltering": false,
+  "sourceData": "{{getTopology.data}}",
+  "topRow": 22,
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "bgxyx2fusj",
+  "widgetName": "MultiSelect5"
 }
