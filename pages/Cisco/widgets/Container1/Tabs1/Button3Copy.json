@@ -29,7 +29,7 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{! (RichTextEditor1.text.length>0)}}",
+  "isDisabled": "{{!  empty_ParametersBGP.checkInputsBGP() && !(RichTextEditor1.text.length>0)}}",
   "isLoading": false,
   "isVisible": true,
   "key": "878ps5wnvm",
