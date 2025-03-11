@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"username\": \"{{Input1.text}}\",\n\t\"password\": \"{{Input2.text}}\",\n\t\"host\": {\n\t\t\"hostname\": \"{{MultiSelect5.selectedOptionLabels[0]}}\",\n\t\t\"ip\": \"{{MultiSelect5.selectedOptionValues[0]}}\"\n\t},\n\t\"real_username\": \"{{appsmith.user.username}}\"\n  \"config\": \"{{RichTextEditor1.text}}\"\n}",
+      "body": "{\n  \"username\": \"{{Input1.text}}\",\n  \"password\": \"{{Input2.text}}\",\n  \"host\": {\n    \"hostname\": \"{{MultiSelect5.selectedOptionLabels[0]}}\",\n    \"ip\": \"{{MultiSelect5.selectedOptionValues[0]}}\"\n  },\n  \"real_username\": \"{{appsmith.user.username}}\",\n  \"config\": \"{{ RichTextEditor1.text\n    .replace(/<\\/?p>/g, '')         // Remove both opening and closing <p> tags\n    .replace(/\\\\n/g, '')            // Remove any backslash n that might be added inadvertently\n    .trim() }}\"\n\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -28,7 +28,7 @@
         }
       ],
       "queryParameters": [],
-      "timeoutInMillisecond": 10000
+      "timeoutInMillisecond": 60000
     },
     "confirmBeforeExecute": false,
     "datasource": {

@@ -1,10 +1,14 @@
 {
-	"username": "{{Input1.text}}",
-	"password": "{{Input2.text}}",
-	"host": {
-		"hostname": "{{MultiSelect5.selectedOptionLabels[0]}}",
-		"ip": "{{MultiSelect5.selectedOptionValues[0]}}"
-	},
-	"real_username": "{{appsmith.user.username}}"
-  "config": "{{RichTextEditor1.text}}"
+  "username": "{{Input1.text}}",
+  "password": "{{Input2.text}}",
+  "host": {
+    "hostname": "{{MultiSelect5.selectedOptionLabels[0]}}",
+    "ip": "{{MultiSelect5.selectedOptionValues[0]}}"
+  },
+  "real_username": "{{appsmith.user.username}}",
+  "config": "{{ RichTextEditor1.text
+    .replace(/<\/?p>/g, '')         // Remove both opening and closing <p> tags
+    .replace(/\\n/g, '')            // Remove any backslash n that might be added inadvertently
+    .trim() }}"
+
 }
