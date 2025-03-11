@@ -40,7 +40,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{addBgpNeighbor.run().then(() => {\n  showAlert(addBgpNeighbor.data, 'success');\n}).catch(() => {\n  showAlert(addBgpNeighbor.data, 'error');\n});}}",
+  "onClick": "{{addBgpNeighbor.run().then(() => {\n  showAlert(addBgpNeighbor.data.data, 'success');\n}).catch(() => {\n  showAlert(addBgpNeighbor.data.data, 'error');\n});}}",
   "originalBottomRow": 49,
   "originalTopRow": 45,
   "parentId": "2yh6muy8ef",
