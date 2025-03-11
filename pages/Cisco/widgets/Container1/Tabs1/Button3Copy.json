@@ -1,17 +1,26 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 42,
+  "bottomRow": 6,
+  "bottomRowBeforeCollapse": 47,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "SECONDARY",
-  "disabledWhenInvalid": false,
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicTriggerPathList": [
@@ -20,31 +29,32 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": false,
+  "isDisabled": "{{!  empty_ParametersBGP.checkInputsBGP()}}",
   "isLoading": false,
   "isVisible": true,
   "key": "878ps5wnvm",
-  "leftColumn": 36,
+  "leftColumn": 54,
   "minWidth": 120,
   "mobileBottomRow": 37,
-  "mobileLeftColumn": 30,
-  "mobileRightColumn": 46,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{resetWidget(\"Form1\", true);}}",
+  "onClick": "{{addBgpNeighbor.run().then(() => {\n  showAlert(addBgpNeighbor.data, 'success');\n}).catch(() => {\n  showAlert(addBgpNeighbor.data, 'error');\n});}}",
   "originalBottomRow": 49,
   "originalTopRow": 45,
-  "parentId": "dauoh5tj1h",
+  "parentId": "2yh6muy8ef",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": true,
+  "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 49,
-  "text": "Reset",
-  "topRow": 38,
+  "rightColumn": 64,
+  "text": "Push",
+  "topRow": 2,
+  "topRowBeforeCollapse": 43,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "suep2vu6rk",
-  "widgetName": "Button4"
+  "widgetId": "2db5l8jadn",
+  "widgetName": "Button3Copy"
 }

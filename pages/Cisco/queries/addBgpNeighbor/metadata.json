@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6772b21876a8a62bd8182bf4_108271ef-c780-4a80-a0b5-24b7eb15d0d8",
-  "id": "Cisco_bgpTable",
+  "gitSyncId": "6772b21876a8a62bd8182bf4_f152a43b-c608-4c38-ad95-a84ca1b0143e",
+  "id": "Cisco_addBgpNeighbor",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,24 +11,24 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"username\": \"{{Input1.text}}\",\n\t\"password\": \"{{Input2.text}}\",\n\t\"host\": {\n\t\t\"hostname\": \"{{MultiSelect5.selectedOptionLabels[0]}}\",\n\t\t\"ip\": \"{{MultiSelect5.selectedOptionValues[0]}}\"\n\t},\n\t\"vrf\": \"{{Input12.text}}\",\n\t\"filter\": \"{{MultiSelect4.selectedOptionValues}}\",\n\t\"real_username\": \"{{appsmith.user.username}}\"\n}",
+      "body": "{\n\t\"username\": \"{{Input1.text}}\",\n\t\"password\": \"{{Input2.text}}\",\n\t\"host\": {\n\t\t\"hostname\": \"{{MultiSelect5.selectedOptionLabels[0]}}\",\n\t\t\"ip\": \"{{MultiSelect5.selectedOptionValues[0]}}\"\n\t},\n\t\"real_username\": \"{{appsmith.user.username}}\"\n  \"config\": \"{{RichTextEditor1.text}}\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
-        "apiContentType": "application/json"
+        "apiContentType": "none"
       },
       "headers": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
-      "paginationType": "PAGE_NO",
-      "path": "/table",
+      "paginationType": "NONE",
+      "path": "/neighbor/add",
       "pluginSpecifiedTemplates": [
         {
           "value": true
         }
       ],
       "queryParameters": [],
-      "timeoutInMillisecond": 60000
+      "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
     "datasource": {
@@ -43,8 +43,8 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "bgpTable",
+    "name": "addBgpNeighbor",
     "pageId": "Cisco",
-    "userSetOnLoad": true
+    "userSetOnLoad": false
   }
 }

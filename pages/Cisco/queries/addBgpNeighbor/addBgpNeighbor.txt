@@ -5,7 +5,6 @@
 		"hostname": "{{MultiSelect5.selectedOptionLabels[0]}}",
 		"ip": "{{MultiSelect5.selectedOptionValues[0]}}"
 	},
-	"vrf": "{{Input12.text}}",
-	"filter": "{{MultiSelect4.selectedOptionValues}}",
 	"real_username": "{{appsmith.user.username}}"
+  "config": "{{RichTextEditor1.text}}"
 }

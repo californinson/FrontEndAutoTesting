@@ -4,12 +4,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 55,
+  "bottomRow": 38,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 530,
+      "bottomRow": 310,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "505ze5oo0i",
+      "parentId": "74r7en8s3k",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "vl47mtk6g8",
-      "widgetName": "Canvas6"
+      "widgetId": "dauoh5tj1h",
+      "widgetName": "Canvas4"
     }
   ],
   "dynamicBindingPathList": [
@@ -73,18 +73,18 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 55,
-  "originalTopRow": 2,
+  "originalBottomRow": 44,
+  "originalTopRow": 7,
   "parentColumnSpace": 8.568962097167969,
-  "parentId": "2yh6muy8ef",
+  "parentId": "bsu2dccejk",
   "parentRowSpace": 10,
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 49,
+  "rightColumn": 48,
   "shouldScrollContents": true,
-  "topRow": 2,
+  "topRow": 7,
   "type": "FORM_WIDGET",
-  "widgetId": "505ze5oo0i",
-  "widgetName": "cpu_form"
+  "widgetId": "74r7en8s3k",
+  "widgetName": "connections_sessions_form"
 }

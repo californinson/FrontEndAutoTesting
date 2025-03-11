@@ -3,8 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 38,
-  "bottomRowBeforeCollapse": 36,
+  "bottomRow": 23,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -15,56 +14,53 @@
       "key": "borderRadius"
     },
     {
-      "key": "isVisible"
+      "key": "validation"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
+  "dynamicTriggerPathList": [
     {
-      "key": "labelTextSize"
-    },
-    {
-      "key": "isVisible"
+      "key": "onSubmit"
     }
   ],
-  "dynamicTriggerPathList": [],
   "iconAlign": "left",
-  "inputType": "TEXT",
+  "inputType": "PASSWORD",
   "isDisabled": false,
   "isLoading": false,
   "isRequired": false,
-  "isVisible": "{{cpu_form_Switch1.isSwitchedOn}}",
+  "isVisible": true,
   "key": "3f8iivll8b",
-  "label": "F5OS hostname/s (comma separated)",
+  "label": "Password",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
-  "labelTextSize": "0.835rem",
+  "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 3,
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 13,
+  "mobileBottomRow": 22,
   "mobileLeftColumn": 2,
   "mobileRightColumn": 22,
-  "mobileTopRow": 6,
+  "mobileTopRow": 15,
   "needsErrorInfo": false,
-  "originalBottomRow": 38,
-  "originalTopRow": 31,
+  "onSubmit": "",
+  "originalBottomRow": 23,
+  "originalTopRow": 16,
   "parentColumnSpace": 7.85479199886322,
-  "parentId": "vl47mtk6g8",
+  "parentId": "dauoh5tj1h",
   "parentRowSpace": 10,
-  "regex": "^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(,((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))*$",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 44,
+  "rightColumn": 28,
+  "shouldAllowAutofill": true,
   "showStepArrows": false,
-  "topRow": 31,
-  "topRowBeforeCollapse": 29,
+  "topRow": 16,
   "type": "INPUT_WIDGET_V2",
+  "validation": "{{ Input2.text.length > 0}}",
   "version": 2,
-  "widgetId": "x8qkjeik8o",
-  "widgetName": "cpu_form_Input3Copy"
+  "widgetId": "c1weukarju",
+  "widgetName": "Input2"
 }

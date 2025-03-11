@@ -3,15 +3,18 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 14,
+  "bottomRow": 15,
   "boxShadow": "none",
-  "defaultText": "root",
+  "defaultText": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "validation"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -29,7 +32,7 @@
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 3,
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -38,20 +41,20 @@
   "mobileRightColumn": 22,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
-  "originalBottomRow": 14,
-  "originalTopRow": 7,
+  "originalBottomRow": 15,
+  "originalTopRow": 8,
   "parentColumnSpace": 7.85479199886322,
-  "parentId": "vl47mtk6g8",
+  "parentId": "dauoh5tj1h",
   "parentRowSpace": 10,
-  "placeholderText": "",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 44,
+  "rightColumn": 28,
   "showStepArrows": false,
-  "topRow": 7,
+  "topRow": 8,
   "type": "INPUT_WIDGET_V2",
+  "validation": "{{ Input1.text.length > 0}}",
   "version": 2,
-  "widgetId": "u15zh8ukt2",
-  "widgetName": "cpu_form_Input1"
+  "widgetId": "php7zodmkt",
+  "widgetName": "Input1"
 }
