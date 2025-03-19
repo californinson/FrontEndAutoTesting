@@ -29,7 +29,7 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{!  empty_ParametersBGP.checkInputsBGP()}}",
+  "isDisabled": "{{!  cisco_Empty_Parameters_Check.checkInputs()}}",
   "isLoading": false,
   "isVisible": true,
   "key": "878ps5wnvm",

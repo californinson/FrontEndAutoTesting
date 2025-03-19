@@ -1,5 +1,5 @@
 export default {
-	checkInputsBGP() {
+	checkInputs() {
     // Get the value of the input fields
     const input1Value = Input1.text;
     const input2Value = Input2.text;

@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 183,
+  "bottomRow": 152,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 1350,
+      "bottomRow": 1330,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -56,7 +56,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 1350,
+      "bottomRow": 1040,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -102,7 +102,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 1350,
+      "bottomRow": 1040,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -138,7 +138,7 @@
       "responsiveBehavior": "fill",
       "rightColumn": 438.775390625,
       "tabId": "tabhte5yizc9a",
-      "tabName": "TBD2",
+      "tabName": "Resources",
       "topRow": 1,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -192,7 +192,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 1350,
+      "bottomRow": 1040,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -264,7 +264,7 @@
   "mobileRightColumn": 26,
   "mobileTopRow": 11,
   "needsErrorInfo": false,
-  "originalBottomRow": 183,
+  "originalBottomRow": 166,
   "originalTopRow": 44,
   "parentColumnSpace": 9.97216796875,
   "parentId": "bsu2dccejk",
@@ -306,7 +306,7 @@
       "index": 2,
       "isDuplicateLabel": false,
       "isVisible": true,
-      "label": "TBD2",
+      "label": "Resources",
       "widgetId": "mcel9e2pae"
     },
     "tabpy19gigm22": {

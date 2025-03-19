@@ -1,8 +1,8 @@
 {
   "gitSyncId": "6772b21876a8a62bd8182bf4_d7bfe89a-f745-4639-a9be-dfeea983b2c8",
-  "id": "Cisco_empty_ParametersBGP",
+  "id": "Cisco_cisco_Empty_Parameters_Check",
   "unpublishedCollection": {
-    "name": "empty_ParametersBGP",
+    "name": "cisco_Empty_Parameters_Check",
     "pageId": "Cisco",
     "pluginId": "js-plugin",
     "pluginType": "JS",
