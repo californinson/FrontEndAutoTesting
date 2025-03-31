@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "0px",
   "borderWidth": "1",
-  "bottomRow": 114,
+  "bottomRow": 116,
   "boxShadow": "none",
   "children": [
     {
@@ -29,14 +29,14 @@
       "leftColumn": 0,
       "minHeight": 980,
       "parentColumnSpace": 1,
-      "parentId": "d5bdlocshu",
+      "parentId": "pc5jc5nbco",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "rightColumn": 475.5,
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "gbyefbafv0",
+      "widgetId": "xbrrieyphh",
       "widgetName": "Canvas1Copy2"
     }
   ],
@@ -52,25 +52,25 @@
   "isLoading": false,
   "isVisible": true,
   "key": "7jawjh2cqc",
-  "leftColumn": 0,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
-  "originalBottomRow": 114,
-  "originalTopRow": 1,
+  "originalBottomRow": 116,
+  "originalTopRow": 3,
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 12,
+  "rightColumn": 13,
   "searchTags": [
     "div",
     "parent",
     "group"
   ],
   "shouldScrollContents": true,
-  "topRow": 1,
+  "topRow": 3,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "d5bdlocshu",
+  "widgetId": "pc5jc5nbco",
   "widgetName": "Container1Copy2"
 }
