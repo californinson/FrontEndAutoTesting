@@ -1,0 +1,60 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 94,
+  "bottomRowBeforeCollapse": 47,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{!  cisco_Empty_Parameters_Check.checkInputs()}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "878ps5wnvm",
+  "leftColumn": 54,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "onClick": "{{netconfGetResoucesProcesses.run().then(() => {\n  showAlert('Connection to the device is successful', 'success');\n}).catch(() => {\n  showAlert(netconfGetResoucesProcesses.data, 'error');\n});}}",
+  "originalBottomRow": 93,
+  "originalTopRow": 89,
+  "parentId": "mcel9e2pae",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "text": "Get",
+  "topRow": 90,
+  "topRowBeforeCollapse": 43,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "24n32kddga",
+  "widgetName": "Button3Copy1CopyCopy"
+}

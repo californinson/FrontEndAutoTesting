@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6772b21876a8a62bd8182bf4_7056a2d4-b3b6-47d6-b35c-56b969ee2d93",
+  "id": "Cisco - BGP_empty_ParametersThroughput",
+  "unpublishedCollection": {
+    "name": "empty_ParametersThroughput",
+    "pageId": "Cisco - BGP",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6772b21876a8a62bd8182bf4_66b5bb19-2196-4b76-a737-27f07ab4c63b",
+  "id": "Cisco - BGP_add_service_to_db",
+  "unpublishedCollection": {
+    "name": "add_service_to_db",
+    "pageId": "Cisco - BGP",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

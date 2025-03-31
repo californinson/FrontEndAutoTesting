@@ -1,0 +1,60 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "bottomRowBeforeCollapse": 47,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{!  cisco_Empty_Parameters_Check.checkInputs() && !(RichTextEditor1.text.length>0)}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "878ps5wnvm",
+  "leftColumn": 51,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "onClick": "{{addBgpNeighbor.run().then(() => {\n  showAlert(addBgpNeighbor.data, 'success');\n}).catch(() => {\n  showAlert(addBgpNeighbor.data.message, 'error');\n});}}",
+  "originalBottomRow": 49,
+  "originalTopRow": 45,
+  "parentId": "2yh6muy8ef",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 61,
+  "text": "Push",
+  "topRow": 2,
+  "topRowBeforeCollapse": 43,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "2db5l8jadn",
+  "widgetName": "Button3Copy"
+}

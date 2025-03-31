@@ -1,0 +1,60 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "bottomRowBeforeCollapse": 47,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{!  cisco_Empty_Parameters_Check.checkInputs()}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "878ps5wnvm",
+  "leftColumn": 56,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "onClick": "{{getResoucesAlarms.run().then(() => {\n  showAlert('Connection to the device is successful', 'success');\n}).catch(() => {\n  showAlert(getResoucesAlarms.data, 'error');\n});}}",
+  "originalBottomRow": 196,
+  "originalTopRow": 192,
+  "parentId": "1kvliftdsk",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "text": "Get",
+  "topRow": 2,
+  "topRowBeforeCollapse": 43,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "b5kii7sxhy",
+  "widgetName": "GetResourcesAlarms"
+}

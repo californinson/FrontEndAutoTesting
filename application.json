@@ -65,6 +65,14 @@
     {
       "id": "Cisco",
       "isDefault": false
+    },
+    {
+      "id": "Cisco - BGP",
+      "isDefault": false
+    },
+    {
+      "id": "Cisco - Resources",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
