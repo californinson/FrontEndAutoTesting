@@ -1,4 +1,0 @@
-{
-"username":"{{appsmith.user.email}}",
-"job_ids":{{Table1.selectedRows}}	
-} 

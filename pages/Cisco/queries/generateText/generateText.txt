@@ -1,3 +1,0 @@
-{
-	"text":"{{RichTextEditor1.text}}"
-}

@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "6772b21876a8a62bd8182bf4_508547bf-24cd-43e7-b261-33bb2ed79483",
+  "gitSyncId": "6772b21876a8a62bd8182bf4_461168ad-ff4d-41c1-9f24-c6327038010f",
   "id": "Cisco_UserLogsIn",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
@@ -42,9 +42,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "UserLogsIn",
     "pageId": "Cisco",
-    "userSetOnLoad": true
+    "userSetOnLoad": false
   }
 }

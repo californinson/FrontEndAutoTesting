@@ -41,7 +41,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 51,
   "shouldTruncate": false,
-  "text": "{{Tabs1.selectedTab}}",
+  "text": "{{appsmith.currentPageName}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 1,

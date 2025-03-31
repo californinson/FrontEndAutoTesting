@@ -21,7 +21,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/processes",
+      "path": "/netconf/processes",
       "pluginSpecifiedTemplates": [
         {
           "value": true

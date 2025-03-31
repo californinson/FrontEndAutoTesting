@@ -40,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "This operation will return the target's BGP table.\n\nUse cAuth.",
+  "text": "Insert authentication details to access devices.\n\nUse cAuth",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 7,
