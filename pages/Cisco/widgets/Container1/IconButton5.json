@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 76,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -11,9 +11,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "tooltip"
     }
   ],
   "dynamicTriggerPathList": [
@@ -21,29 +18,31 @@
       "key": "onClick"
     }
   ],
-  "iconName": "info-sign",
+  "iconName": "layout-auto",
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "lzns77jydn",
-  "leftColumn": 56,
+  "key": "y5x13lnyei",
+  "leftColumn": 2,
   "minWidth": 50,
-  "mobileBottomRow": 5,
-  "mobileLeftColumn": 58,
-  "mobileRightColumn": 62,
-  "mobileTopRow": 1,
+  "mobileBottomRow": 77,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 5,
+  "mobileTopRow": 73,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(Modal2.name);}}",
-  "parentColumnSpace": 6.067748069763184,
-  "parentId": "dauoh5tj1h",
+  "onClick": "{{navigateTo('Cisco - BGP', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 76,
+  "originalTopRow": 72,
+  "parentColumnSpace": 9.2265625,
+  "parentId": "bsu2dccejk",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 58,
-  "tooltip": "{{Tabs1.selectedTab}} info",
-  "topRow": 1,
+  "rightColumn": 6,
+  "tooltip": "Go to BGP",
+  "topRow": 72,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "4c9oepk2gc",
-  "widgetName": "IconButton3"
+  "widgetId": "tk3x02ht7v",
+  "widgetName": "IconButton5"
 }

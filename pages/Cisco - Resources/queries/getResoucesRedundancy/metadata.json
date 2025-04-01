@@ -42,9 +42,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "getResoucesRedundancy",
     "pageId": "Cisco - Resources",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

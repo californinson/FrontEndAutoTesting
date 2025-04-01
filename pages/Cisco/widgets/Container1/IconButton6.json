@@ -1,0 +1,48 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 76,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "grouped-bar-chart",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "y5x13lnyei",
+  "leftColumn": 11,
+  "minWidth": 50,
+  "mobileBottomRow": 76,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 72,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Cisco - Resources', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 76,
+  "originalTopRow": 72,
+  "parentColumnSpace": 9.2265625,
+  "parentId": "bsu2dccejk",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 15,
+  "tooltip": "Go to Resources",
+  "topRow": 72,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8iju5b6ppn",
+  "widgetName": "IconButton6"
+}

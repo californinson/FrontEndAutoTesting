@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 71,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "256x8sne6h",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 12,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 8,
+  "needsErrorInfo": false,
+  "originalBottomRow": 71,
+  "originalTopRow": 9,
+  "overflow": "NONE",
+  "parentColumnSpace": 9.2265625,
+  "parentId": "bsu2dccejk",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "shouldTruncate": false,
+  "text": "Welcome to the <strong>Cisco</strong> page. Depending on your specific test case scenario, you can access relevant tests on either the <strong>BGP</strong> or <strong>Resources</strong> sub-page.\n\n<h3><strong>Cisco - BGP</strong></h3>\nThe BGP sub-page contains test cases related to the <strong>Border Gateway Protocol (BGP)</strong>. Here, you can perform various tests such as:\n\n<strong>Get BGP Routing Table</strong>: Retrieve the current BGP routing table to analyze the network paths. \n\n<strong>Add/Remove BGP Configuration</strong>: Modify the BGP configuration by adding or removing settings to optimize network performance. \n\n\n<h3><strong>Cisco - Resources</strong></h3>\nThe Resources sub-page provides test cases related to the <strong>Cisco device platform's</strong> resource statistics. You can access tests for:\n\n<strong>General CPU Usage</strong>: Monitor the overall CPU usage of the device to ensure efficient operation.  \n\n<strong>Processes' CPU Usage</strong>: Check the CPU usage of individual processes to identify any resource-intensive tasks.  \n\n<strong>Processes' Memory Usage</strong>: Analyze the memory usage of processes to manage device memory effectively.  \n\n<strong>Redundancy Information</strong>: Review redundancy configurations to ensure high availability and fault tolerance.  \n\n<strong>Active Alarms</strong>: View all active alarms on the device to quickly address any issues.\n ",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 9,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "pjgwxmqc2p",
+  "widgetName": "Text13"
+}
