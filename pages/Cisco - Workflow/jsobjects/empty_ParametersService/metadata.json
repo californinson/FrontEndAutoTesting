@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6772b21876a8a62bd8182bf4_86cf7621-1e77-46c2-b0fc-6c590cbfd25d",
+  "id": "Cisco - Workflow_empty_ParametersService",
+  "unpublishedCollection": {
+    "name": "empty_ParametersService",
+    "pageId": "Cisco - Workflow",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

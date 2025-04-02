@@ -73,6 +73,10 @@
     {
       "id": "Cisco - Resources",
       "isDefault": false
+    },
+    {
+      "id": "Cisco - Workflow",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
