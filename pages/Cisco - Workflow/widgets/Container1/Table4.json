@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 121,
+  "bottomRow": 123,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -33,9 +33,10 @@
   "columnOrder": [
     "file_type",
     "filename",
+    "customColumn1",
     "file_path"
   ],
-  "columnUpdatedAt": 1743608349492,
+  "columnUpdatedAt": 1746782716676,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -69,6 +70,15 @@
     },
     {
       "key": "primaryColumns.filename.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn1.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn1.buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -76,7 +86,11 @@
       "key": "tableData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "primaryColumns.customColumn1.onClick"
+    }
+  ],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "horizontalAlignment": "LEFT",
@@ -97,12 +111,51 @@
   "mobileRightColumn": 35,
   "mobileTopRow": 124,
   "needsErrorInfo": false,
-  "originalBottomRow": 121,
-  "originalTopRow": 56,
+  "originalBottomRow": 123,
+  "originalTopRow": 58,
   "parentColumnSpace": 6.356201171875,
   "parentId": "bsu2dccejk",
   "parentRowSpace": 10,
   "primaryColumns": {
+    "customColumn1": {
+      "alias": "Download",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "iconButton",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "iconName": "cloud-download",
+      "id": "customColumn1",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Download",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{getResourcesWorkflowFile2.getResourcesWorkflowFile().then(() => {\n  showAlert('File downloaded successfully', 'success');\n}).catch(() => {\n  showAlert(getResourcesWorkflowFile.data.message, 'error');\n});}}",
+      "originalId": "customColumn1",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "file_path": {
       "alias": "file_path",
       "allowCellWrapping": false,
@@ -125,7 +178,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "file_path",
       "notation": "standard",
       "originalId": "file_path",
@@ -213,7 +266,7 @@
   "serverSidePaginationEnabled": false,
   "tableData": "{{getResoucesWorkflow.data.file_saved}}",
   "textSize": "0.875rem",
-  "topRow": 56,
+  "topRow": 58,
   "totalRecordsCount": "{{netconfGetResoucesAllProcesses.data.pages}}",
   "type": "TABLE_WIDGET_V2",
   "version": 2,

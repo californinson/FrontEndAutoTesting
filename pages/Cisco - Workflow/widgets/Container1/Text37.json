@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 17,
+  "bottomRow": 19,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,7 +30,7 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "originalBottomRow": 17,
+  "originalBottomRow": 19,
   "originalTopRow": 8,
   "overflow": "NONE",
   "parentColumnSpace": 13.9375,
@@ -40,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "shouldTruncate": false,
-  "text": "This feature securely connects to a Cisco IOS-XR device, retrieves key system metrics in parallel (alarms, redundancy status, blocked processes, memory, and CPU usage), and automatically generates organized CSV reports. \n\nSimply enter the device hostname, username, and password, then run the workflow to quickly collect and download performance data for analysis.",
+  "text": "This feature securely connects to a Cisco device, retrieves key system metrics in parallel (alarms, redundancy status, blocked processes, memory, and CPU usage), and automatically generates organized CSV reports. \n\nSimply enter the device hostname, username, and password, then run the workflow to quickly collect and download performance data for analysis.",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 8,
